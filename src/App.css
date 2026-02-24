@@ -1,0 +1,41 @@
+/* App-specific styles */
+
+/* Smooth scroll for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: hsl(215 75% 45% / 0.3);
+  color: inherit;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid hsl(215 75% 45%);
+  outline-offset: 2px;
+}
+
+/* Image loading placeholder */
+img {
+  background-color: hsl(var(--muted));
+}
+
+/* Responsive typography adjustments */
+@media (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  nav, footer {
+    display: none !important;
+  }
+}
