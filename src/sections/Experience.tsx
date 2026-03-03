@@ -4,7 +4,7 @@ const experiences = [
   {
     id: 1,
     role: 'Desarrollador Full Stack',
-    company: 'INNOVATIVE EDUCATION - SERVICES AND SOLUTIONS S.A.S',
+    company: 'Fundación Santillana Colombia',
     location: 'Colombia',
     period: 'Septiembre 2025',
     duration: '6 meses',
